@@ -1,0 +1,14 @@
+{
+  "name": "echecs-halal-online",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Jeu d'echecs multijoueur en ligne avec salles privees et synchronisation en temps reel.",
+  "type": "commonjs",
+  "scripts": {"start": "node server.js", "dev": "node --watch server.js"},
+  "engines": {"node": ">=20"},
+  "dependencies": {
+    "chess.js": "1.4.0",
+    "express": "4.21.2",
+    "socket.io": "4.8.1"
+  }
+}
